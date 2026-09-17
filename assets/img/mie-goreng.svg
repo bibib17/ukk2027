@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" fill="#f8f4ee" rx="20"/>
+  <!-- Mangkok/Piring -->
+  <ellipse cx="100" cy="115" rx="75" ry="40" fill="#e0dbd3"/>
+  <ellipse cx="100" cy="112" rx="70" ry="36" fill="#ffffff"/>
+  <!-- Mie Goreng -->
+  <ellipse cx="100" cy="110" rx="52" ry="26" fill="#b45309"/>
+  <!-- Pola Mie Keriting -->
+  <path d="M70 108 Q80 100 90 108 T110 108 T130 108" stroke="#f59e0b" stroke-width="3" fill="none"/>
+  <path d="M75 113 Q85 105 95 113 T115 113 T125 113" stroke="#d97706" stroke-width="3" fill="none"/>
+  <!-- Bakso / Sosis / Telur -->
+  <circle cx="85" cy="104" r="6" fill="#ef4444"/>
+  <circle cx="115" cy="106" r="6" fill="#92400e"/>
+  <circle cx="100" cy="102" r="4" fill="#16a34a"/>
+  <!-- Uap -->
+  <path d="M90 70 Q95 60 90 50" stroke="#ca8a04" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M110 70 Q115 60 110 50" stroke="#ca8a04" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="100" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#78350f">Mie Goreng</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" fill="#f8f4ee" rx="20"/>
+  <!-- Piring -->
+  <ellipse cx="100" cy="115" rx="75" ry="40" fill="#e0dbd3"/>
+  <ellipse cx="100" cy="112" rx="70" ry="36" fill="#ffffff"/>
+  <!-- Nasi Putih -->
+  <ellipse cx="78" cy="110" rx="30" ry="20" fill="#f3f4f6"/>
+  <ellipse cx="78" cy="107" rx="26" ry="16" fill="#ffffff"/>
+  <!-- Ayam Krispi Geprek -->
+  <ellipse cx="120" cy="108" rx="32" ry="20" fill="#b45309"/>
+  <ellipse cx="120" cy="104" rx="28" ry="16" fill="#d97706"/>
+  <!-- Sambal Bawang Merah Pedas -->
+  <ellipse cx="122" cy="102" rx="22" ry="11" fill="#dc2626"/>
+  <circle cx="118" cy="100" r="3" fill="#ef4444"/>
+  <circle cx="128" cy="103" r="3" fill="#b91c1c"/>
+  <circle cx="124" cy="98" r="2" fill="#facc15"/>
+  <!-- Lalapan Timun -->
+  <circle cx="65" cy="120" r="7" fill="#22c55e"/>
+  <circle cx="65" cy="120" r="4" fill="#86efac"/>
+  <text x="100" y="175" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#78350f">Ayam Geprek</text>
+</svg>

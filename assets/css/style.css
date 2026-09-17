@@ -1,0 +1,124 @@
+/* ==========================================================
+   Taking Order Cafe - Minimalist Modern Cafe Stylesheet
+   Sesuai prinsip PRD: Minimal Custom CSS, Bootstrap First
+   ========================================================== */
+
+:root {
+    --bs-primary: #5c3d2e;
+    --bs-primary-rgb: 92, 61, 46;
+    --font-family-base: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    font-family: var(--font-family-base);
+    color: #2b2b2b;
+    background-color: #f8f9fa;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Navbar Brand Icon */
+.brand-icon {
+    width: 38px;
+    height: 38px;
+}
+
+/* Hero Section */
+.hero-banner {
+    background: linear-gradient(135deg, #2b1e16 0%, #4a3325 100%);
+    color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-menu {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-menu:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+.menu-img-wrapper {
+    height: 180px;
+    background-color: #f3efe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    overflow: hidden;
+}
+
+.menu-img-wrapper svg,
+.menu-img-wrapper img {
+    max-height: 140px;
+    object-fit: contain;
+}
+
+/* Stat Cards for Dashboard */
+.stat-card {
+    border-radius: 14px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+}
+
+.stat-icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* Order Summary Box */
+.order-summary-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 14px;
+}
+
+/* Receipt / Print Styles */
+@media print {
+    /* Sembunyikan navbar, footer, form filter, dan tombol print saat mencetak */
+    nav, footer, .no-print, .btn, .alert {
+        display: none !important;
+    }
+    
+    body {
+        background-color: #ffffff !important;
+        font-size: 12pt;
+    }
+    
+    .container {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    .print-only {
+        display: block !important;
+    }
+}
+
+.print-only {
+    display: none;
+}
